@@ -1,0 +1,23 @@
+docker compose install
+sudo curl -L https://github.com/docker/compose/releases/download/1.21.0/docker-compose-`uname -s`-`uname -m` | sudo tee /usr/local/bin/docker-compose > /dev/null
+sudo chmod +x /usr/local/bin/docker-compose
+ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+docker-compose --version
+
+
+
+
+docker install
+
+Docker Installation using Amazon Ec2 
+	uname -r (os)
+	yum update -y
+	yum install docker -y
+	docker (to verify)
+	docker --version (to verify)
+	docker info (running or not)
+	service docker start
+	docker info (running or not)
+	docker images (to see all images in our machine)
+	dockerps (to see only running containers)
+	dockerps -a (to see all containers)
